@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+ display: flex;
+ justify-content:space-around;
+ padding: 2rem;
+}
+
+.txt{
+    font-size:1.9rem;
+    color:rgb(255, 124, 16);
+    margin-top: -0.45rem;
+}
+
+.navbar a{
+    margin-right: 2.4rem;
+    margin-left: 2.2rem;
+    text-decoration: none;
+    font-size:1.2rem;
+    color: white;
+}
+
+ul li a:hover{
+    color:rgb(255, 124, 16);
+}
+
+
+.navbar div > input {
+   padding:0.4rem;
+   width: 10rem;
+   color: white;
+   font-size: 1rem;
+   border-color: aqua;
+   background-color: transparent;
+
+}
+
+.navbar div > input:hover{
+    border-color:rgb(255, 116, 3) ;
+}
+.navbar div > input:hover{
+    caret-color: yellow;
+}
+.navbar div > input::placeholder{
+    color: antiquewhite;
+}
+
+.navbar div > input[type=text]:focus{
+    border: 3px solid rgb(255, 116, 3);
+    outline: none;
+}
+.navbar div > button {
+   padding:0.6rem;
+   width: 6rem;
+   border-radius: 0.1rem;
+   margin-left: -0.2rem;
+   font-weight: bold;
+   background-color:rgb(255, 116, 3);
+   color: white;
+   border: none;
+   cursor: pointer;
+   font-size:1rem;
+
+}
+
+.container{
+    position: relative;
+    top: 9.4rem;
+    left:3.4rem;
+    display:block;
+}
+
+.btn{
+    padding: 0.4rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    font-weight:bold;
+    color:whitesmoke;
+    border: none;
+    width: 7rem;
+    cursor:pointer;
+    background-color:rgb(255, 116, 3) ;
+}
+
+.form_container{
+    display: inline-block;
+    position: relative;
+    left: 64.4rem;
+    top:-13rem;
+    background-color: rgba(17, 16, 16, 0.908);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.loghere{
+   border: none;
+   background-color: white;
+   color:rgb(255, 116, 3);
+   width: 12rem;
+   padding: 0.8rem;
+   font-weight: bold;
+   font-size:1rem;
+   border-radius: 0.4rem;
+   cursor: pointer;
+}
+
+.inpt{
+     color:whitesmoke;
+     background-color: transparent;
+     border: none;
+     margin-top:1rem; 
+     margin-bottom:0.3rem; 
+     padding: 0.8rem;
+     font-size: 0.8rem;
+     border-bottom: 2px solid rgb(255, 116, 3);
+     outline: none;
+
+}
+
+.inpt::placeholder{
+    color:whitesmoke;
+}
+
+.loginbtn{
+    border: none;
+    background-color:rgb(255, 116, 3);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 12rem;
+    padding: 0.8rem;
+    font-weight: bold;
+    font-size:1rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+}
+
+.bi-facebook{
+    font-size:1.3rem;
+    color:whitesmoke;
+}
+
+.bi-facebook:hover{
+    color:rgb(3, 3, 255);
+}
+
+.bi-instagram{
+    font-size:1.3rem;
+    color:whitesmoke;
+}
+
+.bi-instagram:hover{
+    color:rgb(255, 61, 93);
+}
+
+.bi-twitter{
+    font-size:1.3rem;
+    color:whitesmoke;
+}
+
+.bi-twitter:hover{
+    color:rgb(41, 41, 253);
+}
+
+.bi-google{
+    font-size:1.3rem;
+    color:whitesmoke;
+}
+
+.bi-google:hover{
+    color:rgb(218, 18, 18);
+}
+
+.bi-linkedin{
+    font-size:1.3rem;
+    color:whitesmoke;
+}
+
+.bi-linkedin:hover{
+    color:blue;
+}
